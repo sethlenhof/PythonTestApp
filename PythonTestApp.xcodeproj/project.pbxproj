@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30F220B12B9BDC9D009C8F02 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30F220B02B9BDC9D009C8F02 /* PythonKit */; };
+		30F220B22B9BDCB5009C8F02 /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F9AC202B9BBFC100CB0C5D /* Python.xcframework */; };
+		30F220B32B9BDF0F009C8F02 /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 30F9AC222B9BC01B00CB0C5D /* python-stdlib */; };
+		30F220B52B9BE9EE009C8F02 /* helloWorld.py in Resources */ = {isa = PBXBuildFile; fileRef = 30F9AC2C2B9BC3B800CB0C5D /* helloWorld.py */; };
+		30F220B72B9BEB4C009C8F02 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F220B62B9BEB4C009C8F02 /* VideoPlayerView.swift */; };
+		30F220BB2B9BEBEC009C8F02 /* gymvid9_v1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 30F220BA2B9BEBEB009C8F02 /* gymvid9_v1.mov */; };
 		30F9ABF02B9BBE7D00CB0C5D /* PythonTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9ABEF2B9BBE7D00CB0C5D /* PythonTestAppApp.swift */; };
 		30F9ABF22B9BBE7D00CB0C5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9ABF12B9BBE7D00CB0C5D /* ContentView.swift */; };
 		30F9ABF42B9BBE7F00CB0C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F9ABF32B9BBE7F00CB0C5D /* Assets.xcassets */; };
@@ -16,6 +22,10 @@
 		30F9AC062B9BBE8000CB0C5D /* PythonTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9AC052B9BBE8000CB0C5D /* PythonTestAppTests.swift */; };
 		30F9AC102B9BBE8000CB0C5D /* PythonTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9AC0F2B9BBE8000CB0C5D /* PythonTestAppUITests.swift */; };
 		30F9AC122B9BBE8000CB0C5D /* PythonTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9AC112B9BBE8000CB0C5D /* PythonTestAppUITestsLaunchTests.swift */; };
+		30F9AC262B9BC24700CB0C5D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F9AC252B9BC24700CB0C5D /* libsqlite3.tbd */; };
+		30F9AC282B9BC25400CB0C5D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F9AC272B9BC25300CB0C5D /* libz.tbd */; };
+		30F9AC2B2B9BC2E200CB0C5D /* runPython.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9AC2A2B9BC2E200CB0C5D /* runPython.swift */; };
+		30F9AC332B9BC93E00CB0C5D /* dylib-info-template.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30F9AC322B9BC93E00CB0C5D /* dylib-info-template.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30F220B62B9BEB4C009C8F02 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		30F220BA2B9BEBEB009C8F02 /* gymvid9_v1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = gymvid9_v1.mov; sourceTree = "<group>"; };
 		30F9ABEC2B9BBE7D00CB0C5D /* PythonTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PythonTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F9ABEF2B9BBE7D00CB0C5D /* PythonTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonTestAppApp.swift; sourceTree = "<group>"; };
 		30F9ABF12B9BBE7D00CB0C5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +60,14 @@
 		30F9AC0B2B9BBE8000CB0C5D /* PythonTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PythonTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F9AC0F2B9BBE8000CB0C5D /* PythonTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonTestAppUITests.swift; sourceTree = "<group>"; };
 		30F9AC112B9BBE8000CB0C5D /* PythonTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30F9AC202B9BBFC100CB0C5D /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Python.xcframework; sourceTree = "<group>"; };
+		30F9AC222B9BC01B00CB0C5D /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "python-stdlib"; sourceTree = "<group>"; };
+		30F9AC242B9BC11200CB0C5D /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = PythonTestApp/module.modulemap; sourceTree = SOURCE_ROOT; };
+		30F9AC252B9BC24700CB0C5D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		30F9AC272B9BC25300CB0C5D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		30F9AC2A2B9BC2E200CB0C5D /* runPython.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runPython.swift; sourceTree = "<group>"; };
+		30F9AC2C2B9BC3B800CB0C5D /* helloWorld.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = helloWorld.py; sourceTree = "<group>"; };
+		30F9AC322B9BC93E00CB0C5D /* dylib-info-template.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dylib-info-template.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F220B22B9BDCB5009C8F02 /* Python.xcframework in Frameworks */,
+				30F9AC282B9BC25400CB0C5D /* libz.tbd in Frameworks */,
+				30F9AC262B9BC24700CB0C5D /* libsqlite3.tbd in Frameworks */,
+				30F220B12B9BDC9D009C8F02 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,8 @@
 		30F9ABE32B9BBE7D00CB0C5D = {
 			isa = PBXGroup;
 			children = (
+				30F9AC1F2B9BBF5B00CB0C5D /* Resources */,
+				30F9AC1E2B9BBF5000CB0C5D /* Frameworks */,
 				30F9ABEE2B9BBE7D00CB0C5D /* PythonTestApp */,
 				30F9AC042B9BBE8000CB0C5D /* PythonTestAppTests */,
 				30F9AC0E2B9BBE8000CB0C5D /* PythonTestAppUITests */,
@@ -100,6 +126,9 @@
 			children = (
 				30F9ABEF2B9BBE7D00CB0C5D /* PythonTestAppApp.swift */,
 				30F9ABF12B9BBE7D00CB0C5D /* ContentView.swift */,
+				30F220B62B9BEB4C009C8F02 /* VideoPlayerView.swift */,
+				30F9AC322B9BC93E00CB0C5D /* dylib-info-template.plist */,
+				30F9AC2A2B9BC2E200CB0C5D /* runPython.swift */,
 				30F9ABF32B9BBE7F00CB0C5D /* Assets.xcassets */,
 				30F9ABF82B9BBE7F00CB0C5D /* Persistence.swift */,
 				30F9ABFA2B9BBE7F00CB0C5D /* PythonTestApp.xcdatamodeld */,
@@ -133,6 +162,27 @@
 			path = PythonTestAppUITests;
 			sourceTree = "<group>";
 		};
+		30F9AC1E2B9BBF5000CB0C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F9AC272B9BC25300CB0C5D /* libz.tbd */,
+				30F9AC252B9BC24700CB0C5D /* libsqlite3.tbd */,
+				30F9AC202B9BBFC100CB0C5D /* Python.xcframework */,
+				30F9AC242B9BC11200CB0C5D /* module.modulemap */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F9AC1F2B9BBF5B00CB0C5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30F220BA2B9BEBEB009C8F02 /* gymvid9_v1.mov */,
+				30F9AC2C2B9BC3B800CB0C5D /* helloWorld.py */,
+				30F9AC222B9BC01B00CB0C5D /* python-stdlib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,12 +193,17 @@
 				30F9ABE82B9BBE7D00CB0C5D /* Sources */,
 				30F9ABE92B9BBE7D00CB0C5D /* Frameworks */,
 				30F9ABEA2B9BBE7D00CB0C5D /* Resources */,
+				30F9AC342B9BC9C400CB0C5D /* Purge Python Binary Modules for Non-Target Platforms */,
+				30F9AC352B9BC9EB00CB0C5D /* Sign Python Binary Modules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PythonTestApp;
+			packageProductDependencies = (
+				30F220B02B9BDC9D009C8F02 /* PythonKit */,
+			);
 			productName = PythonTestApp;
 			productReference = 30F9ABEC2B9BBE7D00CB0C5D /* PythonTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +276,9 @@
 				Base,
 			);
 			mainGroup = 30F9ABE32B9BBE7D00CB0C5D;
+			packageReferences = (
+				30F220AF2B9BDC9D009C8F02 /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = 30F9ABED2B9BBE7D00CB0C5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,7 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F220B52B9BE9EE009C8F02 /* helloWorld.py in Resources */,
+				30F220BB2B9BEBEC009C8F02 /* gymvid9_v1.mov in Resources */,
+				30F220B32B9BDF0F009C8F02 /* python-stdlib in Resources */,
 				30F9ABF72B9BBE7F00CB0C5D /* Preview Assets.xcassets in Resources */,
+				30F9AC332B9BC93E00CB0C5D /* dylib-info-template.plist in Resources */,
 				30F9ABF42B9BBE7F00CB0C5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,15 +320,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30F9AC342B9BC9C400CB0C5D /* Purge Python Binary Modules for Non-Target Platforms */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Purge Python Binary Modules for Non-Target Platforms";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphonesimulator\" ]; then\n    echo \"Purging Python modules for iOS Device\"\n    find \"$CODESIGNING_FOLDER_PATH/python-stdlib\" -name \"*.*-iphoneos.dylib\" -exec rm -f \"{}\" \\;\nelse\n    echo \"Purging Python modules for iOS Simulator\"\n    find \"$CODESIGNING_FOLDER_PATH\" -name \"*.*-iphonesimulator.dylib\" -exec rm -f \"{}\" \\;\nfi\n";
+		};
+		30F9AC352B9BC9EB00CB0C5D /* Sign Python Binary Modules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Sign Python Binary Modules";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\ninstall_dylib () {\n    INSTALL_BASE=$1\n    FULL_DYLIB=$2\n\n    # The name of the .dylib file\n    DYLIB=$(basename \"$FULL_DYLIB\")\n    # The name of the .dylib file, relative to the install base\n    RELATIVE_DYLIB=${FULL_DYLIB#$CODESIGNING_FOLDER_PATH/$INSTALL_BASE/}\n    # The (hopefully unique) name of the framework, constructed by replacing path\n    # separators in the relative name with underscores.\n    FRAMEWORK_NAME=$(echo $RELATIVE_DYLIB | cut -d \".\" -f 1 | tr \"/\" \"_\");\n    # A bundle identifier; not actually used, but required by Xcode framework packaging\n    FRAMEWORK_BUNDLE_ID=$(echo $PRODUCT_BUNDLE_IDENTIFIER.$FRAMEWORK_NAME | tr \"_\" \"-\")\n    # The name of the framework folder.\n    FRAMEWORK_FOLDER=\"Frameworks/$FRAMEWORK_NAME.framework\"\n\n    # If the framework folder doesn't exist, create it.\n    if [ ! -d \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER\" ]; then\n        echo \"Creating framework for $RELATIVE_DYLIB\"\n        mkdir -p \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER\"\n\n        cp \"$CODESIGNING_FOLDER_PATH/dylib-Info-template.plist\" \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/Info.plist\"\n        defaults write \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/Info.plist\" CFBundleExecutable -string \"$DYLIB\"\n        defaults write \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/Info.plist\" CFBundleIdentifier -string \"$FRAMEWORK_BUNDLE_ID\"\n    fi\n\n    echo \"Installing binary for $RELATIVE_DYLIB\"\n    mv \"$FULL_DYLIB\" \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER\"\n}\n\necho \"Install standard library dylibs...\"\nfind \"$CODESIGNING_FOLDER_PATH/python-stdlib/lib-dynload\" -name \"*.dylib\" | while read FULL_DYLIB; do\n    install_dylib python-stdlib/lib-dynload \"$FULL_DYLIB\"\ndone\n\n# Clean up dylib template\nrm -f \"$CODESIGNING_FOLDER_PATH/dylib-Info-template.plist\"\n\necho \"Signing frameworks as $EXPANDED_CODE_SIGN_IDENTITY_NAME ($EXPANDED_CODE_SIGN_IDENTITY)...\"\nfind \"$CODESIGNING_FOLDER_PATH/Frameworks\" -name \"*.framework\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" ${OTHER_CODE_SIGN_FLAGS:-} -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der \"{}\" \\;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30F9ABE82B9BBE7D00CB0C5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				30F9ABF92B9BBE7F00CB0C5D /* Persistence.swift in Sources */,
+				30F9AC2B2B9BC2E200CB0C5D /* runPython.swift in Sources */,
 				30F9ABFC2B9BBE7F00CB0C5D /* PythonTestApp.xcdatamodeld in Sources */,
 				30F9ABF22B9BBE7D00CB0C5D /* ContentView.swift in Sources */,
 				30F9ABF02B9BBE7D00CB0C5D /* PythonTestAppApp.swift in Sources */,
+				30F220B72B9BEB4C009C8F02 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +443,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -403,7 +506,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -432,7 +535,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PythonTestApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 577U546VQV;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/sethlenhof/Code/PythonTestApp/Frameworks/;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Python.xcframework/ios-arm64/Headers/";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,10 +547,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "/Users/sethlenhof/Code/PythonTestApp/Resources/python-stdlib";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = seth.PythonTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Python.xcframework/ios-arm64/Headers/module.modulemap";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,7 +568,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PythonTestApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 577U546VQV;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/sethlenhof/Code/PythonTestApp/Frameworks/;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Python.xcframework/ios-arm64/Headers/";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -471,10 +580,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "/Users/sethlenhof/Code/PythonTestApp/Resources/python-stdlib";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = seth.PythonTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Python.xcframework/ios-arm64/Headers/module.modulemap";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -596,6 +707,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30F220AF2B9BDC9D009C8F02 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30F220B02B9BDC9D009C8F02 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30F220AF2B9BDC9D009C8F02 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		30F9ABFA2B9BBE7F00CB0C5D /* PythonTestApp.xcdatamodeld */ = {

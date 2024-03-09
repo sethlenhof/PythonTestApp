@@ -1,0 +1,12 @@
+//
+//  module.modulemap
+//  PythonTestApp
+//
+//  Created by Seth Lenhof on 3/8/24.
+//
+
+module Python {
+    umbrella header "Python.h"
+    export *
+    link "Python"
+}

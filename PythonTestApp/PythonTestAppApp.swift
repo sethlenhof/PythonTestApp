@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Python
+
 
 @main
 struct PythonTestAppApp: App {
